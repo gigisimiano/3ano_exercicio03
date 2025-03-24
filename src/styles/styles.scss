@@ -1,0 +1,36 @@
+$fontePrincipal: Montserrat, sans-serif;
+$fonteSecundaria: Raleway, sans-serif;
+$corEscura: #000000;
+$corPrincipal: #FF3366;
+$corSecundaria: #F67797;
+$cinza: #F9F9F9;
+$branco: #FFFFFF;
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: $branco;
+}    
+
+header{
+    height: 10rem;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2{
+    font-family: $fontePrincipal;
+    color: $corEscura;
+
+    span{
+        color: $corPrincipal;
+    }
+}
+
+footer{
+    background-color: $corPrincipal;
+}

@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: #FFFFFF;
+}
+
+header {
+  height: 10rem;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  font-family: Montserrat, sans-serif;
+  color: #000000;
+}
+h2 span {
+  color: #FF3366;
+}
+
+footer {
+  background-color: #FF3366;
+}
+
+/*# sourceMappingURL=styles.css.map */
