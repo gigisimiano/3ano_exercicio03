@@ -1,29 +1,91 @@
-body {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  width: 100vw;
-  background-color: #FFFFFF;
-}
-
-header {
-  height: 10rem;
-  width: 100vw;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 h2 {
   font-family: Montserrat, sans-serif;
   color: #000000;
 }
-h2 span {
+
+.texto {
+  font-family: Raleway, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+}
+
+header {
+  height: 5rem;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cima {
+  height: 5rem;
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cima span {
   color: #FF3366;
+}
+.cima img {
+  height: 25px;
+  width: 25px;
+}
+
+.inicio {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inicio img {
+  height: 242px;
+  width: 347px;
+  border-top-right-radius: 10px;
+  border-end-end-radius: 10px;
+  margin-top: 2rem;
+  margin-right: 5rem;
+}
+
+.caixaFundo {
+  height: 242px;
+  width: 347rem;
+  border-top-left-radius: 10px;
+  background-color: #F67797;
+  margin-left: 2rem;
 }
 
 footer {
   background-color: #FF3366;
+  width: 100vw;
+  padding: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+footer div {
+  padding-top: 1rem;
+}
+footer span {
+  color: #FFFFFF;
+}
+footer p {
+  color: #FFFFFF;
+}
+footer .logos {
+  width: 50%;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=styles.css.map */
