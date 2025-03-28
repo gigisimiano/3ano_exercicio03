@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -52,6 +53,9 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-bottom-width: 1px;
+  border-bottom-color: #FF3366;
+  border-bottom-style: solid;
 }
 
 .imagem img {
@@ -87,9 +91,163 @@ header {
   color: #FFFFFF;
 }
 
+.sobre {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+  padding-top: 6rem;
+  border-bottom-width: 1px;
+  border-bottom-color: #FF3366;
+  border-bottom-style: solid;
+}
+.sobre img {
+  box-shadow: -130px -20px #F67797;
+  border-top-right-radius: 10px;
+}
+.sobre h1 {
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+.sobre p {
+  padding: 2rem;
+}
+
+.serviços {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+  padding-top: 4rem;
+  border-bottom-width: 1px;
+  border-bottom-color: #FF3366;
+  border-bottom-style: solid;
+}
+.serviços .serviço {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.serviços .serviço h1 {
+  padding-bottom: 1rem;
+}
+.serviços .serviço p {
+  width: 20rem;
+  font-weight: 500;
+  padding-bottom: 2rem;
+}
+.serviços .serviço span {
+  color: #FF3366;
+  font-weight: 700;
+}
+.serviços .tipo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 25rem;
+  width: 20rem;
+  margin: 1rem;
+  border-bottom-width: 0.4rem;
+  border-bottom-style: solid;
+  border-bottom-color: #FF3366;
+}
+.serviços .tipo img {
+  height: 5rem;
+  width: 5rem;
+}
+.serviços .tipo h1 {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.serviços .tipo p {
+  text-align: center;
+  width: 15rem;
+}
+
+.depoimentos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+  border-bottom-width: 1px;
+  border-bottom-color: #FF3366;
+  border-bottom-style: solid;
+}
+.depoimentos h1 {
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  width: 20rem;
+}
+.depoimentos img {
+  align-self: center;
+}
+.depoimentos .bolinhas {
+  display: flex;
+  justify-content: center;
+}
+.depoimentos .bolinhad {
+  height: 1rem;
+  width: 1rem;
+  background-color: #FF3366;
+  border-radius: 100%;
+  margin: 0.5rem;
+  box-shadow: 7px 5px 5px 0px rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 7px 5px 5px 0px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 7px 5px 5px 0px rgba(0, 0, 0, 0.19);
+}
+.depoimentos .bolinha {
+  height: 1rem;
+  width: 1rem;
+  background-color: #FFFFFF;
+  border-radius: 100%;
+  margin: 0.5rem;
+  box-shadow: 7px 5px 5px 0px rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 7px 5px 5px 0px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 7px 5px 5px 0px rgba(0, 0, 0, 0.19);
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.contato img {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: 1rem;
+}
+.contato p {
+  padding-top: 1rem;
+}
+.contato .tex {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.contato .butao {
+  padding-bottom: 2rem;
+}
+.contato button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  width: 15rem;
+  background-color: #FF3366;
+  border: none;
+  border-radius: 10px;
+}
+.contato .contatos {
+  display: flex;
+  align-items: center;
+}
+
 footer {
   background-color: #FF3366;
-  width: 100vw;
+  width: 100%;
   padding: 1rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
